@@ -13,3 +13,8 @@ in the html file run ! then tab to creae html doc
 
 create a div in the html with a id and a name
 
+
+add   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
