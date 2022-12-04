@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: inherit;
+    margin: 0%;
+    padding: 0%; 
+}
+
+header{
+    background-color: blue;
+}
+
+.footer-main-div{
+    background-color: rgb(47, 255, 0);
+}
+
+.footer-main-div{
+    background-color: rgb(47, 255, 0);
+}
+
+.product-main-div{
+    color: white;
+    background-color: rgb(9, 11, 8); 
+}
