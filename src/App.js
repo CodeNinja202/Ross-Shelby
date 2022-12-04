@@ -5,6 +5,7 @@ import { Navbar, Products, Footer } from "./component";
 
 
 const App = () => {
+  console.log("Hello")
   return (
     <div className="main-div">
       <Navbar />
