@@ -1,0 +1,9 @@
+.pageFour{
+    background-image: url("./Photos/4.jpg");
+     soverflow: hidden;
+     min-height: 60vh;
+    display: flex;
+    align-item: flex-end;
+    justify-content: space-between;
+    padding: 5.5rem;
+    }

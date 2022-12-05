@@ -1,0 +1,11 @@
+
+
+.homePage{
+background-image: url("./Photos/Home.jpg");
+ soverflow: hidden;
+min-height: 97vh;
+display: flex;
+align-item: flex-end;
+justify-content: space-between;
+padding: 5.5rem;
+}
