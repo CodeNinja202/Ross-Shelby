@@ -6,31 +6,28 @@
 }
 
 header{
+    width: auto;
+
     width: 100%;
+
     height: 100px;
     background-color: rgb(183, 136, 136);
     position: relative;
-    animation-name: example;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  
 }
+
 
 .footer-main-div{
   width: 100%;
-  height: 100px;
-  background: rgb(212, 201, 201);
-  transition: width 2s;
-}
-
 
 
 .product-main-div{
-    width: 100%;
-    height: 200rem;
-    background-color: red;
-   
+
+  height: auto;
+    background-color: #fff9f1;
+    width:auto;
 }
+
+
+
 

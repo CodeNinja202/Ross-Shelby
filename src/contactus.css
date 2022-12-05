@@ -1,0 +1,9 @@
+.contactus{
+    background-image: url("./Photos/contact.jpg");
+    overflow: hidden;
+    min-height: 60vh;
+    display: center;
+    align-item: center;
+    justify-content: space-between;
+    padding: 5.5rem;
+    }

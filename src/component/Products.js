@@ -3,8 +3,12 @@ import React from "react";
 const Products = () => {
   return (
     <div className="product-main-div">
-
-     <h1>Products</h1>
+<div className="homePage">
+</div>
+<div className="pageTwo"></div>
+<div className="pageThree"></div>
+<div className="pageFour"></div>
+<div className="contactus"></div>
     </div>
   );
 };
