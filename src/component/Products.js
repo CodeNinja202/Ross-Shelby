@@ -9,7 +9,6 @@ const Products = () => {
 <div className="pageThree"></div>
 <div className="pageFour"></div>
 <div className="contactus"></div>
-     
     </div>
   );
 };

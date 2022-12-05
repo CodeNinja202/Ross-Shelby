@@ -1,8 +1,7 @@
 .contactus{
     background-image: url("./Photos/contact.jpg");
-     soverflow: hidden;
+    overflow: hidden;
     min-height: 60vh;
-    min-width:200vh;
     display: center;
     align-item: center;
     justify-content: space-between;

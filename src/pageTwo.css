@@ -1,6 +1,6 @@
 .pageTwo{
     background-image: url("./Photos/2.jpg");
-     soverflow: hidden;
+    overflow: hidden;
     min-height: 68vh;
     display: flex;
     align-item: flex-end;
