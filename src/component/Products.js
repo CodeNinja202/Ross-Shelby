@@ -1,5 +1,5 @@
 import React from "react";
-
+import Form from "./Form";
 const Products = () => {
   return (
     <div className="product-main-div">
@@ -8,7 +8,7 @@ const Products = () => {
 <div className="pageTwo"></div>
 <div className="pageThree"></div>
 <div className="pageFour"></div>
-<div className="contactus"></div>
+<div className="contactus"><Form/></div>
     </div>
   );
 };
