@@ -2,8 +2,10 @@
     background-image: url("./Photos/contact.jpg");
     overflow: hidden;
     min-height: 60vh;
+    border: 55px solid rgb(69, 151, 10);
+    box-sizing: border-box;
     display: center;
-    align-item: center;
+    object-fit: contain;
     justify-content: space-between;
     padding: 5.5rem;
     }

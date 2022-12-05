@@ -5,8 +5,10 @@ background-image: url("./Photos/Home.jpg");
 overflow: hidden;
 min-height: 97vh;
 display: flex;
-align-item: flex-end;
+object-fit: contain;
 justify-content: space-between;
 padding: 5.5rem;
+border: 25px solid red;
+box-sizing: border-box;
 }
 

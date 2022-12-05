@@ -1,9 +1,10 @@
 .pageFour{
     background-image: url("./Photos/4.jpg");
-     soverflow: hidden;
+    
      min-height: 60vh;
     display: flex;
-    align-item: flex-end;
+    border: 55px solid rgb(206, 182, 182);
+    box-sizing: border-box;
     justify-content: space-between;
     padding: 5.5rem;
     }

@@ -1,9 +1,10 @@
 .pageThree{
     background-image: url("./Photos/3.jpg");
-     soverflow: hidden;
+   
      min-height: 68vh;
-    display: flex;
-    align-item: flex-end;
+    
+     border: 55px solid rgb(151, 10, 10);
+     box-sizing: border-box;
     justify-content: space-between;
     padding: 5.5rem;
     }
