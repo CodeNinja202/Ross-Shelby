@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import { HashLink as Link  } from "react-router-hash-link";
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -36,16 +37,18 @@ const Navbar = () => {
   };
 
   return (
-
-    <AppBar position="static">
+ 
+    <AppBar position="static" id="app-bar-main">
       <Container maxWidth="xl">
+      <div id="main-navBar">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          
           <Typography
             variant="h6"
             noWrap
             component="a"
-            href="/"
+           
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -58,7 +61,7 @@ const Navbar = () => {
           >
             LOGO
           </Typography>
-
+          
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -156,9 +159,10 @@ const Navbar = () => {
             </Menu>
           </Box>
         </Toolbar>
+        </div>
       </Container>
     </AppBar>
-
+    
   );
 }
 
