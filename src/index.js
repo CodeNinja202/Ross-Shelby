@@ -7,6 +7,7 @@ import "./pageTwo.css";
 import "./pageThree.css";
 import "./pageFour.css";
 import "./contactus.css";
+import "./navbar.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 

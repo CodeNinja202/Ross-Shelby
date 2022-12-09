@@ -6,7 +6,7 @@ const Pagetwo = () => {
    
     <div  id="page-two">
     <h1>Page two</h1>
-    <Link to="#main-navBar">CLICK ME NOW</Link>
+   
     </div>
     
   );

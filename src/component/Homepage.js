@@ -6,9 +6,6 @@ const Homepage = () => {
    
     <div className="home-main-div" id="homePageID">
     <h1>Home page</h1>
-    <Link to="#page-two" smooth>CLICK ME</Link>
-    <br></br>
-    <Link to="#contact-us-page" smooth>CONTACT ME</Link>
     </div>
     
   );
