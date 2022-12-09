@@ -4,9 +4,9 @@ const Pagefour= () => {
 
   return (
    
-    <div className="page-three-main-div" id="pageThreeID">
+    <div className="page-three-main-div" id="pageFourID">
     <h1>Page Four</h1>
-    <Link to="#homePageID" smooth>CLICK ME</Link>
+   
     </div>
     
   );
