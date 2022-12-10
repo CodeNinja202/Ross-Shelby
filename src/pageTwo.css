@@ -1,10 +1,10 @@
 .pageTwo{
-    background-image: url("./Photos/2.jpg");
+    background-image: url("./Photos/pg2.png");
     overflow: hidden;
-    min-height: 68vh;
+    min-height: 100vh;
     display: flex;
-    border: 55px solid rgb(27, 100, 142);
-     box-sizing: border-box;
-    justify-content: space-between;
+    border: 55px solid #fff9f1;
+    box-sizing: border-box;
     padding: 5.5rem;
+    background-size: cover;
     }

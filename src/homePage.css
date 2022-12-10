@@ -1,14 +1,12 @@
 
 
 .homePage{
-background-image: url("./Photos/Home.jpg");
+background-image: url("./Photos/2.png");
 overflow: hidden;
-min-height: 97vh;
-display: flex;
-object-fit: contain;
-justify-content: space-between;
+min-height: 100vh;
 padding: 5.5rem;
-border: 25px solid red;
+border: 25px solid none;
 box-sizing: border-box;
+background-size: cover;
 }
 
