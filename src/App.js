@@ -5,7 +5,7 @@ import { Navbar, MainPage, Footer } from "./component";
 
 const App = () => {
   return (
-    <div className="home" >
+    <div className="main-app-div" >
       <header className="main-app-header" id="home">
         <Navbar />
       </header>
