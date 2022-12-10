@@ -4,7 +4,7 @@ const Pagefour= () => {
 
   return (
    
-    <div className="page-three-main-div" id="pageFourID">
+    <div className="page-four-main-div" id="pageFourID">
     <h1>Page Four</h1>
    
     </div>

@@ -1,10 +1,8 @@
 .pageThree{
-    background-image: url("./Photos/3.jpg");
-   
-     min-height: 68vh;
-    
-     border: 55px solid rgb(151, 10, 10);
-     box-sizing: border-box;
-    justify-content: space-between;
+    background-image: url("./Photos/6.png");
+    min-height: 100vh;
+    border: 55px solid #fff9f1;
+    box-sizing: border-box;
     padding: 5.5rem;
+    background-size: cover;
     }

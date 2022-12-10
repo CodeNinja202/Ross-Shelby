@@ -4,7 +4,7 @@ const Pagetwo = () => {
 
   return (
    
-    <div  id="page-two">
+    <div className="page-two-main-div"  id="page-two">
     <h1>Page two</h1>
    
     </div>

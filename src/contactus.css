@@ -1,11 +1,9 @@
 .contactus{
-    background-image: url("./Photos/contact.jpg");
+    background-image: url("./Photos/10.png");
     overflow: hidden;
-    min-height: 60vh;
-    border: 55px solid rgb(69, 151, 10);
+    min-height: 100vh;
+    border: 55px solid none;
     box-sizing: border-box;
-    display: center;
-    object-fit: contain;
-    justify-content: space-between;
     padding: 5.5rem;
+    background-size: cover;
     }
