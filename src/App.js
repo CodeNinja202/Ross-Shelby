@@ -5,18 +5,12 @@ import { Navbar, MainPage, Footer } from "./component";
 
 const App = () => {
   return (
-    <div className="main-app-div" >
-      <header className="main-app-header" id="home">
-        <Navbar />
-      </header>
+    <div className="main-app-div">
+      <Navbar />
 
-      <main className="main-app-main">
-        <MainPage />
-      </main>
+      <MainPage />
 
-      <footer className="main-app-footer">
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 };
