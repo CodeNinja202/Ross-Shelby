@@ -19,7 +19,7 @@ const Navbar = () => {
         <h1>LOGO</h1>
       </div>
       <a>
-        {" "}
+      
         <Link href="#" className="toggle-button">
           <span className="bar"></span>
           <span className="bar"></span>
@@ -30,35 +30,35 @@ const Navbar = () => {
         <ul>
           <li>
             <a>
-              <Link to="#homePageID" smooth>
+              <Link to="#Home" smooth>
                 HOME
               </Link>
             </a>
           </li>
           <li>
             <a>
-              <Link to="#page-two" smooth>
+              <Link to="#Page-two" smooth>
                 PAGE TWO
               </Link>
             </a>
           </li>
           <li>
             <a>
-              <Link to="#pageThreeID" smooth>
+              <Link to="#Page-three" smooth>
                 PAGE THREE
               </Link>
             </a>
           </li>
           <li>
             <a>
-              <Link to="#pageFourID" smooth>
+              <Link to="#Page-four" smooth>
                 PAGE FOUR
               </Link>
             </a>
           </li>
           <li>
             <a>
-              <Link to="#contactUS" smooth>
+              <Link to="#contact" smooth>
                 CONTACT
               </Link>
             </a>
