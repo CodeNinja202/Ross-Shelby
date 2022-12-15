@@ -8,7 +8,7 @@ const Form = () => {
           <h1>FormSubmit Demo</h1>
           <form
             target="_blank"
-            action="https://formsubmit.co/your@email.com"
+            action="https://formsubmit.co/your@email.com" // <----INPUT CUSTOMERS EMAIL
             method="POST"
           >
             <div className="form-group">
