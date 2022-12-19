@@ -1,7 +1,7 @@
 To create a React App first start by creating a folder mdkir (name of project) and then in the terminal of that project run npm init -y to create a package.json file.
 
 
-then run npm install react react-dom react-scripts
+then run npm install react react-dom react-scripts react-router-dom
 
 
 you will need public and src folders 
