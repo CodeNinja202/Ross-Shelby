@@ -2,13 +2,9 @@ import React from "react";
 import CssBaseline from '@mui/material/CssBaseline';
 import ReactDOM from "react-dom/client";
 import '@fontsource/roboto/300.css';
+
 import "./index.css";
-import "./homePage.css";
-import "./pageTwo.css";
-import "./pageThree.css";
-import "./pageFour.css";
-import "./contactus.css";
-import "./navbar.css";
+
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 

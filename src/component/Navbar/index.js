@@ -1,13 +1,13 @@
 import React from "react";
-
+import "./index.css";
 import { HashLink as Link } from "react-router-hash-link";
 
 window.onload = function () {
   const toggleButton = document.getElementsByClassName("toggle-button")[0];
   const navbarLinks = document.getElementsByClassName("navbar-links")[0];
-  console.log(toggleButton);
-  console.log(navbarLinks);
+  
   toggleButton.addEventListener("click", () => {
+    toggleButton.classList.toggle("active");
     navbarLinks.classList.toggle("active");
   });
 };

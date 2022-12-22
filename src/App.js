@@ -1,7 +1,13 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import Footer from './component/Footer'
+import Form from './component/Form'
+import Homepage from './component/Homepage'
+import Navbar from './component/Navbar'
+import Pagefour from './component/Pagefour'
+import Pagethree from './component/Pagethree'
+import Pagetwo from './component/Pagetwo'
 
-import { Navbar, Footer, Form,  Homepage, Pagefour, Pagetwo, Pagethree } from "./component";
+
 
 const App = () => {
   return (

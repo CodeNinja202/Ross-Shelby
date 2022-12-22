@@ -1,5 +1,5 @@
 .pageTwo{
-    background-image: url("./Photos/pg2.png");
+    background-image: url("../Photos/pg2.png");
     overflow: hidden;
     min-height: 100vh;
     display: flex;
