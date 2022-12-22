@@ -6,9 +6,10 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5); /* Add translucent background color */
     color: white;
-}
+  }
+  
 
 .brand-title {
     font-size: 1.5rem;
@@ -58,6 +59,15 @@
     border-radius: 10px;
 }
 
+.toggle-button:active .bar {
+    display: none;
+  }
+  .toggle-button:active .bar.x {
+    display: block;
+  }
+  .toggle-button .bar.x::before {
+    content: "×";
+  }
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
